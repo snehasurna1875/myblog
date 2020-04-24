@@ -11,7 +11,7 @@ export default function Mainarea(){
          
         
         <div>
-              <form>
+              <form action="" method="post">
                 <div><Link to='/'  className="FormTitle__Link">Signin</Link>|<Link to='/signup' className="FormTitle__Link">Signup</  Link></div>
                 <Switch> 
                 

@@ -2,7 +2,9 @@ import React, {Component} from 'react';
 import { BrowserRouter as Router,Switch, Route, Link} from 'react-router-dom';
 import './mainarea.css';
 import blog from './blog.png';
-export default function Mainarea(){
+
+
+export default function mainarea(props){
     return(
         <Router>
         <div className="index">
@@ -11,8 +13,9 @@ export default function Mainarea(){
          
         
         <div>
+          
               <form action="" method="post">
-                <div><Link to='/'  className="FormTitle__Link">Signin</Link>|<Link to='/signup' className="FormTitle__Link">Signup</  Link></div>
+                <div> <Link to='/'  className="FormTitle__Link">Signin</Link>|<Link to='/signup' className="FormTitle__Link">Signup</  Link></div>
                 <Switch> 
                 
                 <Route path='/signup'>
@@ -56,6 +59,7 @@ function Signin() {
                 </div>
 
                 <button type="submit" className="button">Submit</button>
+                
                 <p className="forgot-password-text-right">
                     Forgot <a href="#">password?</a>
                 </p>

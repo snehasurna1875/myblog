@@ -13,9 +13,9 @@ export default function mainarea(props){
          
         
         <div>
-          
+        
               <form action="" method="post">
-                <div> <Link to='/'  className="FormTitle__Link">Signin</Link>|<Link to='/signup' className="FormTitle__Link">Signup</  Link></div>
+                <div> <Link to='/'  className="FormTitle__Link">ASignin</Link>|<Link to='/signup' className="FormTitle__Link">Signup</  Link></div>
                 <Switch> 
                 
                 <Route path='/signup'>

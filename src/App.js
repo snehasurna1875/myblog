@@ -1,7 +1,11 @@
 import React from 'react';
+import './App.css';
 function App(){
     return(
-        <h1></h1>
+        <div className="blogdisplaying">
+            <div className="blogdisplaying-appside"></div>
+            <div className="blogdisplaying-formside"></div>
+        </div>
     );
 
 }

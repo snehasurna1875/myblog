@@ -1,16 +1,17 @@
 import React, {Component} from "react";
-import './blogdisplay.css';
+import './blogeditor.css';
 import jio from './blogi';
 
 function Mainpage() {
+    
     return(
+      
         
-<div className="blogdisplay">
-
-    <div className="blogdispay-centerbox">
+<div className="blogeditor">     
+    <div className="blogeditor-centerbox">
     <form action="" >
     <div className="heading">
-       <label>Title</label>
+    <label>  Title</label>
     </div>
     <div>
         <input type="text" className="inputtext" required />
@@ -29,7 +30,7 @@ function Mainpage() {
 
 
     </div>
-3
+
 
 </div>
 

@@ -1,9 +1,9 @@
-.blogdisplay{
+.blogeditor{
     
    height:100vh;
     display:flex;
 }
-.blogdispay-centerbox{
+.blogeditor-centerbox{
     width:50vw;
     background-color: #9cc3d5;
     margin-top:50px;

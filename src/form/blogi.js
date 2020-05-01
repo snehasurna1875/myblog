@@ -1,9 +1,12 @@
 import React from 'react';
-import Mainpage from './blogdisplay';
-function jio(){
+import Mainpage from './blogeditor';
+
+function jio(name){
+    
     return(
+        
         <div>
-          
+         <Mainpage />
         </div>
     );
 }

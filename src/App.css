@@ -1,0 +1,16 @@
+.blogdisplaying{
+   
+    height:100vh;
+    display:flex;
+  
+  }
+  .blogdisplaying-appside{
+    width:80vw;
+    background-color:whitesmoke;
+  }
+  
+  .blogdisplaying-formside{
+    width:20vw;
+    background-color:#F76C6C;
+}
+    

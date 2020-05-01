@@ -4,7 +4,8 @@ import mainarea from './mainarea';
 import logo from './logo.svg';
 import './Nav.css';
 import Mainpage from './form/blogeditor';
-import App from './App';
+import blogdisplay from './blogspart/blogdisplay';
+
 
 
 function Nav() {
@@ -13,19 +14,16 @@ function Nav() {
     <div>
      <Router>
       <ul>
-      <li><Link to='/App'>Home</Link></li>
-       <li><Link to='/form/blogeditor'>About</Link></li> 
+      
+       <li><Link to='/form/blogeditor'>blogeditor</Link></li> 
        <li><Link  to='/mainarea'>SignIn</Link></li>
        <li><a href="#">SignUp</a></li>
+       <li><Link to='/blogspart/blogdisplay'>blogdisplay</Link></li>
       </ul> 
-      <Switch>
-         <Route exact path='/App' component={App}></Route>
-       </Switch> 
-      <Switch>
-         <Route exact path='/form/blogeditor' component={Mainpage}></Route>
-       </Switch>  
-      <Switch>
+      <Switch>   
+       <Route exact path='/form/blogeditor' component={Mainpage}></Route>
        <Route exact path='/mainarea' component={mainarea}></Route>
+       <Route exact path='/blogspart/blogdisplay' component={blogdisplay}></Route>
      </Switch> 
       
      </Router>

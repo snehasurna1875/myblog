@@ -2,11 +2,21 @@ import React, {Component} from 'react';
 import { BrowserRouter as Router,Switch, Route, Link} from 'react-router-dom';
 import './mainarea.css';
 import blog from './blog.png';
+import Nav from './Nav';
 
 
 export default function mainarea(props){
     return(
+        
         <Router>
+        <div><Link  to='/Nav'></Link>
+        <Switch>
+        <Route  path='/Nav'>
+        <Nav />
+        </Route>
+        </Switch>
+        </div>
+        
         <div className="index">
         <div className="index-appside"><img src={blog} width="512px" height="512px" mode="fit"></img></div>
         <div className="index-formside">
@@ -15,15 +25,14 @@ export default function mainarea(props){
         <div>
         
               <form action="" method="post">
-                <div> <Link to='/'  className="FormTitle__Link">ASignin</Link>|<Link to='/signup' className="FormTitle__Link">Signup</  Link></div>
+                <div> <Link to='/'  className="FormTitle__Link">Signin</Link>|<Link to='/signup' className="FormTitle__Link">Signup</  Link></div>
                 <Switch> 
-                
+            
                 <Route path='/signup'>
-                
-                <Signup/>
+                       <Signup/>
                 </Route>
                 <Route  path='/'>
-                 <Signin/>
+                            <Signin/>
                 </Route>
                 
                 </Switch>

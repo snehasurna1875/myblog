@@ -1,16 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Nav from './Nav';
+
 import Mainarea from './mainarea';
 import * as serviceWorker from './serviceWorker';
 import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Nav />
-    <App />
-    
+    <App />  
   </React.StrictMode>,
   document.getElementById('root'),
   document.getElementById('form')

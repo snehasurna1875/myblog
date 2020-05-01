@@ -1,7 +1,7 @@
 .blogdisplaying{
    
     height:100vh;
-    
+    display:flex;
   
   }
   .blogdisplaying-appside{
@@ -15,7 +15,7 @@
 }
     
 .title-display{
-  margin-top:20px;
+  margin:20px;
   border: 2px solid black;
   width:50vw;
   
@@ -24,8 +24,19 @@
   border: 2px solid black;
   width:60vw;
   height:75vh;
+  margin:20px;
   
 }
-.navigation-bar{
-width:100vw;
+.recent-post{
+    margin:10px;
+    width:19vw;
+    border:2px solid black;
+    height:50vh;
+
+}
+.comment-section{
+    width:50vw;
+    margin:20px;
+    border:2px solid black;
+    height:70px;
 }

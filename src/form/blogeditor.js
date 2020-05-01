@@ -3,12 +3,13 @@ import './blogeditor.css';
 import jio from './blogi';
 
 function Mainpage() {
-    
+    console.log("react");
     return(
-      
+        
         
 <div className="blogeditor">     
     <div className="blogeditor-centerbox">
+        
     <form action="" >
     <div className="heading">
     <label>  Title</label>
